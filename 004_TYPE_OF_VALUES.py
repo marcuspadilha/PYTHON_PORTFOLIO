@@ -1,0 +1,6 @@
+variable = input("Input value: ")
+print(f"The value {variable} is alpha? {variable.isalpha()}")
+print(f"The value {variable} is numeric? {variable.isnumeric()}")
+print(f"The value {variable} is alphanumeric? {variable.isalnum()}")
+print(f"The value {variable} is space? {variable.isspace()}")
+print(f"The value {variable} is printable? {variable.isprintable()}")
