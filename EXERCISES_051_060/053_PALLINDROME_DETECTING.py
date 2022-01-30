@@ -11,3 +11,5 @@ if inverse == together:
     print(f"The inverse of {together} is {inverse}. Thus, the phrase is a palindrome.")
 else:
     print(f"The inverse of {together} is {inverse}. Thus, the phrase is not a palindrome.")
+
+input()

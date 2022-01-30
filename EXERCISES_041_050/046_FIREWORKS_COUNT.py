@@ -10,3 +10,5 @@ for c in range (time,-1,-1):
     sleep(0.5)
 print("HAPPY NEW YEAR!")
 
+input()
+

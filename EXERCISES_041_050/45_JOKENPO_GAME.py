@@ -40,3 +40,4 @@ else:
     elif user == 3:
         print(f'''You chosen SCISSORS and the computer chose SCISSORS.\nThe play was a DRAW.''')
 
+input()

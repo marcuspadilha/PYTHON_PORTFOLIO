@@ -8,3 +8,4 @@ last = first+(quantity-1)*term
 for c in range(first, last + 1, term):
     print(c, end=" → ")
 print("It's over.")
+input()

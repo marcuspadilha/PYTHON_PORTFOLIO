@@ -9,3 +9,5 @@ for c in range (1,7):
 
 # processing
 print(f"You stated {count} numbers and the sum of the even numbers is {sum}.")
+
+input()

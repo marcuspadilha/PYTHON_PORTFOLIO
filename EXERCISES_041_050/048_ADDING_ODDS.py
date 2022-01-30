@@ -14,3 +14,4 @@ for c in range(number1, number2 + 1):
 
 
 print(f"\nThe of the {count} values multiples by 3 and odds between the range {number1} and {number2} is {sum}.")
+input()

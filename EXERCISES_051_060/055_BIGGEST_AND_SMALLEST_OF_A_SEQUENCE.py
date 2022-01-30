@@ -16,3 +16,4 @@ for p in range(1,6):
         bweight = weight
 #output
 print(f"The biggest weight inputted was {bweight} and the smallest was {sweight}.")
+input()

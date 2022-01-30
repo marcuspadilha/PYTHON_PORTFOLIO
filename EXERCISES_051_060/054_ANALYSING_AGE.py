@@ -17,4 +17,4 @@ for n in range(1, 8):
 
 # output
 print(f"\nIn the total there was {legalage} people of legal age, and {underade} underage people.")
-
+input()

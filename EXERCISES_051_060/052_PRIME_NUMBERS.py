@@ -11,3 +11,5 @@ if count > 2:
 else:
     print(f"The number {number} is a prime number.")
 
+input()
+
