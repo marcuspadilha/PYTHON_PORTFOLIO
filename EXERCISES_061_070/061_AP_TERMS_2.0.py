@@ -7,3 +7,4 @@ while quantity>0:
     print(term, end=" ")
     term += reason
     quantity -= 1
+input()

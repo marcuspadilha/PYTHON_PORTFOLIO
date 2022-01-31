@@ -19,3 +19,4 @@ while option != "N":
 
 print(f"You've typed {count} numbers and the mean was {sum/count:.2f}.")
 print(f"The biggest value was {biggestnumber} and the smallest value was {smallestnumber}.")
+input()

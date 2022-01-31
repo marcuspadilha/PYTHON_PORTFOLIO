@@ -9,3 +9,4 @@ while number != 0:
     count += 1
 
 print(f"You've typed {count-1} numbers and their sum is {sum}. ")
+input()

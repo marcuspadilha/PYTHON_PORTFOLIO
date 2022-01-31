@@ -13,3 +13,4 @@ while quantity > 0:
         quantity -= 1
     quantity = int(input("\nHow many terms do you want show more? "))
 print(f"AP finalized with {quantityterms} terms showed.")
+input()
