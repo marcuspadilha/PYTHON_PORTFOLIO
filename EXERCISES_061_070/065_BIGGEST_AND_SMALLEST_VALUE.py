@@ -1,10 +1,6 @@
 #statement
-number = 0
+number = sum =  count = biggestnumber = smallestnumber = 0
 option = "Y"
-sum = 0
-count = 0
-biggestnumber = 0
-smallestnumber = 0
 
 #procesing
 while option != "N":
