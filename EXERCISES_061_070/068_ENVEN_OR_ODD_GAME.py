@@ -27,4 +27,5 @@ while True:
             print("\033[1;31mYou LOSE!")
             break
 print(f"\033[1;34mGAME OVER! You have won {count} times.")
+input()
 

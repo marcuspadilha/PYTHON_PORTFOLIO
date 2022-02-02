@@ -21,3 +21,4 @@ while True:
 print(f"\033[1;34mTotal of people in leagal age: {plus18}")
 print(f"\033[1;34mIn the total, we have {man} men registered.")
 print(f"\033[1;34mThere are {youngwomen} women below 20.")
+input()

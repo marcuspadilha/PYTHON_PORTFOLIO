@@ -1,5 +1,5 @@
 #statement
-count = times09 = position03 = 0
+count = times09 = position03 = counteven =0
 #input
 print("\033[1;38m")
 number01 = int(input("Enter a number from 0 to 9: "))
@@ -24,4 +24,8 @@ print("The even values typed were:", end=" ")
 for count in numbers:
     if count%2 == 0:
         print(count, end=" ")
+        counteven += 1
+if counteven == 0:
+    print("none", end="")
 print(".")
+input()

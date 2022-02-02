@@ -29,3 +29,5 @@ for team in teams:
     if choice == team:
         print(f"\033[1;35m"
               f"The team {team} is in {teams.index(team)+1}º position.")
+
+input()

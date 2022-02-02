@@ -1,0 +1,32 @@
+item01 = input("Input item 01: ")
+price01 = float(input("Item's 01 price: "))
+item02 = input("Input item 02: ")
+price02 = float(input("Item's 02 price: "))
+item03 = input("Input item 03: ")
+price03 = float(input("Item's 03 price: "))
+item04 = input("Input item 04: ")
+price04 = float(input("Item's 04 price: "))
+item05 = input("Input item 05: ")
+price05 = float(input("Item's 05 price: "))
+item06 = input("Input item 06: ")
+price06 = float(input("Item's 06 price: "))
+item07 = input("Input item 07: ")
+price07 = float(input("Item's 07 price: "))
+item08 = input("Input item 08: ")
+price08 = float(input("Item's 08 price: "))
+item09 = input("Input item 09: ")
+price09 = float(input("Item's 09 price: "))
+item10 = input("Input item 10: ")
+price10 = float(input("Item's 10 price: "))
+
+items = (item01, price01, item02, price02, item03, price03, item04, price04, item05, price05, item06, price06, item07, price07,
+item08, price08, item09, price09, item10, price10)
+
+print("-"*60)
+print(f"{'List of prices':^60}")
+print("-"*60)
+
+for item in range(0,len(items),2):
+    print(f"{items[item]:.<51}","$", f"{items[item+1]:>6.2f}")
+print("-"*60)
+input()
