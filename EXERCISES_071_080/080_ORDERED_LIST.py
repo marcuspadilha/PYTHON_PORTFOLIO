@@ -15,6 +15,6 @@ for count in range(0, 10):
                 break
             position += 1
         print(f"\033[1;33mIt was added in the {position + 1}ª position.")
-
+#output
 print("\033[1;34m")
 print(f"The values typed in order were {numbers}")
