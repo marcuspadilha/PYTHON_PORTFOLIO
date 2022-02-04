@@ -1,6 +1,5 @@
 # statement
 studentgrade = dict()
-geralgrade = list()
 # input
 studentgrade['name'] = input("Student's name: ")
 studentgrade['mean'] = float(input(f"{studentgrade['name']}'s mean: "))
