@@ -14,3 +14,4 @@ elif studentgrade['mean'] <5:
 print(f"The student's name is {studentgrade['name']}.")
 print(f"The mean is {studentgrade['mean']}.")
 print(f"The situation is {situation}.")
+input()
