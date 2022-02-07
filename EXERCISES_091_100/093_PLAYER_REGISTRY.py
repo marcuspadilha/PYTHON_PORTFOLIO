@@ -1,4 +1,4 @@
-#statements
+#statements 
 data = dict()
 matchgoals = list()
 sumgoals = 0
