@@ -22,4 +22,4 @@ print(f"The player played {count} matches.")
 for index,goals in enumerate(data['goals']):
     print(f"   => In the match {index}, {data['name']} did {goals} goals.")
 print(f"{data['name']} did a total of {sumgoals} goals")
-
+input()

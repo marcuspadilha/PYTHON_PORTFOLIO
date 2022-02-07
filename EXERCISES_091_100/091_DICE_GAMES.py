@@ -21,3 +21,4 @@ ranking = sorted(play.items(), key=itemgetter(1), reverse=True)
 for index, count in enumerate(ranking):
     sleep(0.5)
     print(f"  {index+1}º place: {count[0]} with {count[1]}")
+input()

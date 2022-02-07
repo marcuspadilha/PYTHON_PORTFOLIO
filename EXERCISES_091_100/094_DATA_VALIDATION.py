@@ -57,3 +57,4 @@ print(f"E) List of people with age above the mean: ")
 for count in people:
     if (count['age']) > mean:
         print(f"Name: {count['name']}, Sex: {count['sex']}, Age: {count['age']}.")
+input()

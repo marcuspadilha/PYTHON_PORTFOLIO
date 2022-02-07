@@ -21,3 +21,4 @@ else:
     print(f"{data['name']}'s work card number is {data['worksnumber']}")
     print(f"{data['name']}'s wage is: $ {data['wage']}")
     print(f"{data['name']} will retire being {data['retirement']}")
+input()
