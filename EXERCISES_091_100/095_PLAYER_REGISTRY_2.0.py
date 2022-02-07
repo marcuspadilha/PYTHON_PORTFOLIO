@@ -1,15 +1,14 @@
 # statements
 team = list()
 player = dict()
-match = list()
 matchgoals = list()
-sumgoals = 0
+sumgoals = cod = 0
 
 #input
 while True:
     player['name'] = input("Enter the player's name: ").strip().capitalize()
     count = int(input(f"How many football match {player['name']} has played? "))
-    for c in range(0, count):
+    for c in range(1, count+1):
         goals = int(input(f"    How many goals in the match {c}? "))
         sumgoals += goals
         matchgoals.append(goals)
@@ -28,6 +27,11 @@ while True:
     team.append(player.copy())
     if choice == "N":
         break
-
-
+print("-="*30)
+print(f"{'cod':<4} {'nome':<15} {'goals':<30} {'total'}")
+print("-"*60)
+print(team)
+for data in team:
+    print(f"{cod:<4} {data['name']:<15} {data['goals']:<30} {sumgoals}")
+    cod += 1
 
