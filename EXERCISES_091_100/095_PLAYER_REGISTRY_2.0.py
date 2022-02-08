@@ -33,12 +33,12 @@ while True:
     if choice == "N":
         break
 print("-=" * 30)
-print("-"*50)
+print("-" * 50)
 print("cod ", end=" ")
 for i in player.keys():
-    print(f"{i:<15}", end="")
+    print(f"{(i):<15}", end="")
 print()
-print("-"*50)
+print("-" * 50)
 for k, v in enumerate(team):
     print(f"{k:<5}", end="")
     for d in v.values():
@@ -47,15 +47,16 @@ for k, v in enumerate(team):
 
 print()
 print("-=" * 30)
+
 while True:
-    search = int (input("Show the data what player of? (-1 to stop)"))
+    search = int(input("Show the data what player of? (-1 to stop) "))
     if search == -1:
         break
-    if search> len(team):
+    if search > len(team)-1:
         print(f"ERROR! there is not player with the code {search}!")
     else:
         print(f"---Survey of the player {team[search]['name']}")
         for i, g in enumerate(team[search]['goals']):
-            print(f"    In the match {i+1} the player made {g} goals.")
-    print("-="*30)
+            print(f"    In the match {i + 1} the player made {g} goals.")
+    print("-=" * 30)
 print()
