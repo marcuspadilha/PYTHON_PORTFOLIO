@@ -60,3 +60,4 @@ while True:
             print(f"    In the match {i + 1} the player made {g} goals.")
     print("-=" * 30)
 print()
+input()

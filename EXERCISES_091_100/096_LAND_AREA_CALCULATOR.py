@@ -13,3 +13,4 @@ width = float(input("Input the land's width in meters: "))
 length = float(input("Input the land's length in meters: "))
 # output
 area(width, length)
+input()

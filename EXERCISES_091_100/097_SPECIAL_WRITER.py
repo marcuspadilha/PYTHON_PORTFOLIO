@@ -10,3 +10,5 @@ phrase = input("Input a phrase to be enhanced: ")
 
 # output
 writer(phrase)
+
+input()
