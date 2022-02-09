@@ -17,7 +17,7 @@ def summing(lst):
     for count in lst:
         if count%2==0:
             sum += count
-    print(f"\033[1;38mThe numbers pairs' sum of the list {lst} is \033[1;34m{sum}.")
+    print(f"\033[1;38mThe numbers pairs' sum of the list {lst} is \033[1;34m{sum}\033[1;38m.")
 
 
 # input
