@@ -23,7 +23,6 @@ def grades(lst, chc):
 
 
 # input
-print("\033[1;38m")
 while True:
     grade = float(input("Input the student's grade: "))
     setofgrades.append(grade)
