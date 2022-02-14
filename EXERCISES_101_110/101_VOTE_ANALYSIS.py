@@ -14,3 +14,4 @@ def vote(num):
 # input
 number = int(input("\033[1;38mEnter birth year: "))
 print(vote(number))
+input()

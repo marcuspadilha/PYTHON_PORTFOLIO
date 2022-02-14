@@ -16,3 +16,4 @@ def readint(ask):
 # main program
 number = readint("\033[1;38mEnter a number: ")
 print(f"\033[1;34mYou have just typed the number \033[1;33m{number}\033[1;38m.")
+input()

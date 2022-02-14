@@ -16,3 +16,4 @@ if firstname == "":
     firstname = "Unknown"
 
 print(player(firstname, numbergoals))
+input()

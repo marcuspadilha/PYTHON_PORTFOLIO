@@ -39,3 +39,4 @@ sleep(0.5)
 # output
 answer = grades(setofgrades, choice2)
 print(answer)
+input()

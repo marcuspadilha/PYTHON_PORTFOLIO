@@ -31,3 +31,4 @@ for count in range(0,values):
 #output
 drawing(numbers)
 summing(numbers)
+input()

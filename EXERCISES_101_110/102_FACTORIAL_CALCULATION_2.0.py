@@ -27,3 +27,4 @@ choice = input("Do you want see the calculation? [Y/N]").strip().upper()
 
 # output
 print(fac(number, choice))
+input()
