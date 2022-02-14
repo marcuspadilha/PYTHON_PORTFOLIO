@@ -23,8 +23,9 @@ def grades(lst, chc):
 
 
 # input
+print("\033[1;38m")
 while True:
-    grade = float(input("\033[1;38mInput the student's grade: "))
+    grade = float(input("Input the student's grade: "))
     setofgrades.append(grade)
     choice1 = input("Do you want to continue? [Y/N]").strip().upper()
     if choice1 == "N":
