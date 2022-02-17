@@ -2,7 +2,7 @@
 import FUNCTIONS
 
 # input
-value = float(input("\033[1;38mEnter with the value: $ "))
+value = float(input("\033[1;38mEnter with the value: R$ "))
 print()
 print(FUNCTIONS.half(value))
 print(FUNCTIONS.double(value))
