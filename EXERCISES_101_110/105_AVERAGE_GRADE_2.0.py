@@ -3,9 +3,10 @@ student = dict()
 setofgrades = list()
 grade = 0
 
-
 # library
 from time import sleep
+
+
 # function
 def grades(lst, chc):
     student['total'] = len(lst)
