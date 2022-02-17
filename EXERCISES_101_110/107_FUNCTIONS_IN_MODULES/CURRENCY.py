@@ -1,10 +1,18 @@
-# library
-import FUNCTIONS
+def increase(value, tax):
+    answer = value + (value * (tax / 100))
+    return answer
 
-# input
-value = float(input("\033[1;38mEnter with the value: $ "))
-print()
-print(FUNCTIONS.half(value))
-print(FUNCTIONS.double(value))
-print(FUNCTIONS.adding10(value))
-input()
+
+def decrease(value, tax):
+    answer = value - (value * (tax / 100))
+    return answer
+
+
+def double(value):
+    answer = value * 2
+    return answer
+
+
+def half(value):
+    answer = value / 2
+    return answer
