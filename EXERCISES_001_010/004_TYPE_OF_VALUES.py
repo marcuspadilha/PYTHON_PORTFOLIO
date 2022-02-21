@@ -9,5 +9,6 @@ print(f"The value {variable} is num? {variable.isalnum()}")
 print(f"The value {variable} is is identifier? {variable.isidentifier()}")
 print(f"The value {variable} is is ascii? {variable.isascii()}")
 print(f"The value {variable} is is digit? {variable.isdigit()}")
+print(variable)
 
 input()
