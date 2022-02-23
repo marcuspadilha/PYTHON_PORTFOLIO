@@ -1,3 +1,5 @@
+import FILES
+from time import sleep
 def options():
     print("\033[1;38m-" * 40)
     print(f"{'MAIN MENU':^40}")
@@ -8,7 +10,8 @@ def options():
     print("\033[1;38m-" * 40)
 
 
-def enter():
+def enter(file):
+
     people = list()
     person = dict()
     num = 0
@@ -28,18 +31,24 @@ def enter():
                 print("\033[1;38m-" * 40)
                 print(f"{'REGISTERED PEOPLE':^40}")
                 print("-" * 40)
+                FILES.readfile(file)
                 for count in people:
                     print(f"\033[1;37m{count['name']:<20}{count['age'] :>10} years old\033[1;38m")
-                print()
+                input()
+
 
             elif number == 2:
-                person['name'] = input("Enter the person's name: ")
-                person['age'] = input("Enter the person's age: ")
-                people.append(person.copy())
-                num += 1
+                print("\033[1;38m-" * 40)
+                print(f"{'NEW REGISTER':^40}")
+                print("-" * 40)
+                name = str(input("Enter the person's name: ")).capitalize().strip()
+                age =  int(input("Enter the person's age: "))
+                FILES.toregister(file, name, age)
+
 
             elif number == 3:
                 print("\033[1;38m-" * 40)
                 print(f"{'Exiting the system.':^40}")
                 print("-" * 40)
                 break
+            sleep(1)
